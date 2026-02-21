@@ -359,8 +359,8 @@ const Protocol = () => {
         />
         <ProtocolCard
           step="02"
-          title="Digital Pre-boarding"
-          desc="AI Ranger synchronizes with your device, feeding real-time atmospheric and migrational updates before touchdown."
+          title="Command Briefing"
+          desc="Connect directly with our expedition leaders for a comprehensive pre-departure briefing on upcoming terrain conditions and apex predator movements."
           animType="scanner"
         />
         <ProtocolCard
