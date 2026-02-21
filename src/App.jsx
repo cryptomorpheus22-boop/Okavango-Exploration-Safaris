@@ -125,7 +125,7 @@ const ShufflerCard = () => {
 
 const TypewriterCard = () => {
   const [text, setText] = useState('');
-  const fullText = "> Analyzing migration patterns...\n> Locating leopard sightings...\n> Drafting itinerary draft 01...\n> Awaiting confirmation.";
+  const fullText = "> Analyzing leopard territories...\n> Calculating golden hour lighting vectors...\n> Assessing vantage points...\n> Positioning confirmed.";
 
   useEffect(() => {
     let current = 0;
@@ -144,8 +144,8 @@ const TypewriterCard = () => {
     <div className="bg-background rounded-[2rem] p-8 border border-primary/10 shadow-lg relative overflow-hidden flex flex-col h-80 hover:-translate-y-2 transition-transform duration-500">
       <div className="flex justify-between items-start mb-6">
         <div>
-          <h4 className="font-heading font-bold text-xl mb-2">AI Ranger Planning</h4>
-          <p className="font-body text-sm opacity-70">Instant itinerary drafting & sighting maps.</p>
+          <h4 className="font-heading font-bold text-xl mb-2">Photographic & Tracking</h4>
+          <p className="font-body text-sm opacity-70">Positioning you for the perfect shot with elite local trackers.</p>
         </div>
         <div className="flex items-center gap-2 bg-primary/5 px-3 py-1 rounded-full">
           <div className="w-2 h-2 rounded-full bg-accent animate-pulse"></div>
